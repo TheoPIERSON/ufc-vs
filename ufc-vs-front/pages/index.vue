@@ -1,4 +1,5 @@
 <template>
+  <BaseNavigation />
   <Hero />
 </template>
 
