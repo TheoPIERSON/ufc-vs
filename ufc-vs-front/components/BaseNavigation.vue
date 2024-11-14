@@ -1,6 +1,7 @@
 <template>
   <nav class="flex justify-center text-center">
-    <h1 class="text-5xl p-4 font-extrabold">UFC Versus</h1>
+    <NuxtImg src="grey-background.jpg" class="absolute -z-10 h-screen w-full" />
+    <h1 class=""><NuxtImg width="400px" src="UFC-vs.png" /></h1>
   </nav>
 </template>
 

@@ -1,22 +1,24 @@
 <template>
-  <div class="grid place-items-center mt-10">
-    <h2>Are you a UFC expert?</h2>
-    <p>Who won the fight between...</p>
+  <div class="grid place-items-center">
+    <h2 class="text-5xl font-bold font-Bebas uppercase text-gray-100">Are you a UFC expert ?</h2>
+    <p class="text-4xl font-bold font-Bebas text-gray-100">Who won the fight between...</p>
     <div v-if="fighters.red && fighters.blue">
       <div class="flex w-screen justify-around">
-        <p class="border p-20 cursor-pointer" @click="checkWinner('Red')">
-          {{ fighters.red }}
-        </p>
-        <p class="border p-20 cursor-pointer" @click="checkWinner('Blue')">
-          {{ fighters.blue }}
-        </p>
+        <div class="text-center w-1/3 p-8" @click="checkWinner('Red')">
+          <img :src="getImageUrl(fighters.red)" alt="Red Fighter" class="w-full h-72 object-scale-down border" />
+          <p class="border p-2 bg-white">{{ fighters.red }}</p>
+        </div>
+        <div class="text-center w-1/3 p-8" @click="checkWinner('Blue')">
+          <img :src="getImageUrl(fighters.blue)" alt="Blue Fighter" class="w-full h-72 object-scale-down border" />
+          <p class="border p-2 bg-white">{{ fighters.blue }}</p>
+        </div>
       </div>
     </div>
-    <p>on {{ fightDate }}</p>
-    <div v-if="message" class="mt-4">
+    <p class="text-gray-100 text-2xl">on {{ fightDate }}</p>
+    <div v-if="message" class="mt-0">
       <p :class="{ 'text-green-500': !isCorrect, 'text-red-500': isCorrect }">{{ message }}</p>
     </div>
-    <button @click="loadRandomFight">Next Fight</button>
+    <button @click="loadRandomFight" class="bg-red-700 p-2 px-6 rounded-full text-white font-medium">Next Fight</button>
   </div>
 </template>
 
@@ -28,6 +30,17 @@ const fighters = ref<{ red: string; blue: string; winner?: string }>({ red: "", 
 const message = ref<string | null>(null);
 const isCorrect = ref<boolean | null>(null);
 const fightDate = ref<string | null>(null); // Utilisez string pour la date
+const photoData = ref<{ FighterName: string; Photo: string }[]>([]);
+
+// Charger les photos des combattants depuis le fichier JSON
+const loadPhotos = async () => {
+  try {
+    const photoResponse = await fetch("/fighters-photo.json");
+    photoData.value = await photoResponse.json();
+  } catch (error) {
+    console.error("Erreur lors du chargement des photos :", error);
+  }
+};
 
 const checkWinner = (selected: "Red" | "Blue") => {
   if (fighters.value.winner === selected) {
@@ -36,6 +49,26 @@ const checkWinner = (selected: "Red" | "Blue") => {
   } else {
     message.value = "Oops! You chose the wrong fighter.";
     isCorrect.value = true;
+  }
+};
+
+// Récupère l'URL de la photo du combattant
+const getImageUrl = (fighterName: string) => {
+  // Vérifie que les données photo sont chargées avant de faire la recherche
+  if (!photoData.value.length) {
+    console.warn("Les données de photo ne sont pas encore chargées");
+    return "/favicon.ico"; // Image par défaut si les données ne sont pas encore chargées
+  }
+
+  // Recherche le combattant par son nom
+  const fighter = photoData.value.find((f) => f.FighterName === fighterName);
+
+  // Retourne la photo du combattant si trouvée, sinon celle de Hasbulla
+  if (fighter) {
+    return fighter.Photo;
+  } else {
+    const hasbulla = photoData.value.find((f) => f.FighterName === "Hasbulla");
+    return hasbulla ? hasbulla.Photo : "/favicon.ico";
   }
 };
 
@@ -48,7 +81,7 @@ const loadRandomFight = async () => {
     Papa.parse(csvText, {
       header: true, // Utilisation de l'en-tête pour identifier les colonnes
       skipEmptyLines: true, // Ignorer les lignes vides
-      complete: (result) => {
+      complete: (result: { data: any }) => {
         const data = result.data;
 
         // Sélectionne un combat aléatoire
@@ -72,6 +105,7 @@ const loadRandomFight = async () => {
 
 // Charge un combat aléatoire au démarrage
 onMounted(() => {
+  loadPhotos();
   loadRandomFight();
 });
 </script>

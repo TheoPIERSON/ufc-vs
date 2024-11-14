@@ -18,5 +18,8 @@
     "papaparse": "^5.4.1",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.15"
   }
 }

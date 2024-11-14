@@ -14,6 +14,7 @@ export default {
     },
     fontFamily: {
       Montserrat: "Montserrat, sans-serif",
+      Bebas: "Bebas, sans-serif",
     },
     container: {
       center: true,

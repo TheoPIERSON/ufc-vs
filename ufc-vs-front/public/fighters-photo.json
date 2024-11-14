@@ -1,0 +1,654 @@
+[
+  {
+    "FighterName": "Conor McGregor",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-07/MCGREGOR_CONOR_L_07-10.png?itok=xbg9Kwfj"
+  },
+  {
+    "FighterName": "Khabib Nurmagomedov",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/fighter_images/Khabib_Nurmagomedov/1NURMAGOMEDOV_KHABIB_L.png?itok=MDKzcpwv"
+  },
+  {
+    "FighterName": "Hasbulla",
+    "Photo": "https://focus.huffingtonpost.fr/2023/05/10/93/0/4959/2789/1280/720/75/0/a6d727f_1683707615365-gettyimages-1435626922.jpg"
+  },
+  {
+    "FighterName": "Klidson Abreu",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/68520/profile-galery/fullbodyleft-picture/ABREU_KLIDSON_L.png?VersionId=BbXEo5JsESM5N88Iv2q7TJdUPAz1J.sR&itok=3bf1RkpJ"
+  },
+  {
+    "FighterName": "Francis Ngannou",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-01/NGANNOU_FRANCIS_L_03-27.png?itok=s4MVBS7x"
+  },
+  {
+    "FighterName": "Randy Couture",
+    "Photo": "https://imgs.search.brave.com/uIElsNCL4f7xvKdQMFmZTt86J-6WPWCPEB5A-RuC3yk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTAy/NTA0MDIwL2ZyL3Bo/b3RvL2NvbHVtYnVz/LW9oaW8tcmFuZHkt/Y291dHVyZS1kZWYt/dGltLXN5bHZpYS11/bmFuaW1vdXMtZGVj/aXNpb24tZHVyaW5n/LXVmYy02OC1hdC1u/YXRpb253aWRlLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1w/cUhnbEF5SUdlLVlV/cWlZM2g3X29fRVZM/X0F6cE9uY0dzRDBY/MzJ4RGVzPQ"
+  },
+  {
+    "FighterName": "Taylor Lapilus",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-09/LAPILUS_TAYLOR_L_09-28.png?itok=IloTp4AE"
+  },
+  {
+    "FighterName": "Cortney Casey",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-11/67672%252Fprofile-galery%252Ffullbodyleft-picture%252FCASEY_CORTNEY_L_11-13.png?itok=L7--ldRQ"
+  },
+  {
+    "FighterName": "Cynthia Calvillo",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-04/CALVILLO_CYNTHIA_L_04-08.png?itok=a8jqxcbR"
+  },
+  {
+    "FighterName": "Tyson Pedro",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-09/PEDRO_TYSON_L_09-09.png?itok=c4E4fGWV"
+  },
+  {
+    "FighterName": "Anton Turkalj",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-09/TURKALJ_ANTON_L_09-10.png?itok=awaehgbk"
+  },
+  {
+    "FighterName": "Jesse Ronson",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-06/RONSON_JESSE_L_04-16.png?itok=mR3a4EpW"
+  },
+  {
+    "FighterName": "Kevin Lee",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/LEE_KEVIN_L_07-01.png?itok=HDsK9Xd9"
+  },
+  {
+    "FighterName": "Ariel Beck",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/a68a575b-9107-4580-ab6f-4366457de605%252FAriel-Beck_644633_LeftFullBodyImage.png?itok=DSrQEu2z"
+  },
+  {
+    "FighterName": "Shana Dobson",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2020-02/DOBSON_SHANA_L.png?VersionId=Y4M4ba4Qt86pGNmPnStWNSberc4.46j5&itok=EvsUzqk7"
+  },
+  {
+    "FighterName": "Uriah Hall",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-06/8b787623-45ca-45ae-9642-49677bf57ce9%252FHALL_URIAH_L_07-02.png?itok=U6QpnX0d"
+  },
+  {
+    "FighterName": "Antonio Carlos Junior",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67374/profile-galery/fullbodyleft-picture/CARLOS_JUNIOR_ANTONIO_L.png?VersionId=JGTdyaP_cOJzHbl8eBDqVhbsIehp9EGa&itok=WDpVOMQ-"
+  },
+  {
+    "FighterName": "Caio Borralho",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/BORRALHO_CAIO_L_08-24.png?itok=9yu6t7Pb"
+  },
+  {
+    "FighterName": "Michal Oleksiejczuk",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-06/OLEKSIEJCZUK_MICHAL_L_06-01.png?itok=rby88QRO"
+  },
+  {
+    "FighterName": "Gabriel Gonzaga",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/fdcc4a83-1ee2-46d7-9c5e-27c00b0058b5%252FGabriel-Gonzaga_724_LeftFullBodyImage.png?itok=-F80vvvZ"
+  },
+  {
+    "FighterName": "Konstantin Erokhin",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/476fe3dc-81fc-4e10-a3c8-8b6a658cd254%252Fkonstantin-erokhin_510683_LeftFullBodyImage.png?itok=Z9KCxp_M"
+  },
+  {
+    "FighterName": "Michael Bisping",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/e285d3e7-8514-48ec-9ea0-7936e956b507%252FMichael-Bisping_758_LeftFullBodyImage.png?itok=FeaNIaZ0"
+  },
+  {
+    "FighterName": "Dan Henderson",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67711/profile-galery/fullbodyleft-picture/Dan-Henderson_63_LeftFullBodyImage.png?VersionId=FJDbDcy7hdlRW_Ste2Cq5MirRIJJCv0n&itok=G5Qs06RO"
+  },
+  {
+    "FighterName": "Ismael Bonfim",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-05/BONFIM_ISMAEL_L_05-04.png?itok=Y4v9yY8N"
+  },
+  {
+    "FighterName": "Benoit Saint Denis",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/SAINT_DENIS_BENOIT_L_03-09.png?itok=aUHOevFI"
+  },
+  {
+    "FighterName": "Song Yadong",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/YADONG_SONG_L_03-09.png?itok=spyjRjxE"
+  },
+  {
+    "FighterName": "Kyler Phillips",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-11/PHILLIPS_KYLER_L_10-19.png?itok=fzVFXf59"
+  },
+  {
+    "FighterName": "Donald Cerrone",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-05/06971e1e-4aa9-404e-96f4-b50c2f56c21f%252FCERRONE_DONALD_L_05-07.png?itok=QUtbOg5n"
+  },
+  {
+    "FighterName": "Evan Dunham",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/67929/profile-galery/fullbodyleft-picture/Evan-Dunham_1025_LeftFullBodyImage.png?itok=TP_YVLdN"
+  },
+  {
+    "FighterName": "Andrea Lee",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-02/LEE_ANDREA_L_02-17.png?itok=aZtLIZDq"
+  },
+  {
+    "FighterName": "Miranda Maverick",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-07/MAVERICK_MIRANDA_L_07-20.png?itok=96BYqPw6"
+  },
+  {
+    "FighterName": "Makwan Amirkhani",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-07/aeac1376-60de-48f9-983f-c13d3d58d52e%252FAMIRKHANI_MAKWAN_L_03-19.png?itok=0RttlM_e"
+  },
+  {
+    "FighterName": "Masio Fullen",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/c4610c1e-b664-4429-a087-d0a3abd5918d%252Fmasio-fullen_498745_LeftFullBodyImage.png?itok=ca0RnQg1"
+  },
+  {
+    "FighterName": "Karolina Kowalkiewicz",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-11/KOWALKIEWICZ_KAROLINA_L_11-09.png?itok=Xt6fVrRR"
+  },
+  {
+    "FighterName": "Yan Xiaonan",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/XIAONAN_YAN_L_04-13.png?itok=RYWyZB2z"
+  },
+  {
+    "FighterName": "Allan Nascimento",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-01/NASCIMENTO_ALLAN_L_01-14.png?itok=tp6_5hmh"
+  },
+  {
+    "FighterName": "Carlos Hernandez",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/HERNANDEZ_CARLOS_L_06-17.png?itok=O3SJs0B2"
+  },
+  {
+    "FighterName": "Mirko Cro Cop",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/b74a9134-4a9e-45b5-9fcd-6f83cd29ccb4%252FMirko-Cro-Cop_829_LeftFullBodyImage.png?itok=T07b7lm8"
+  },
+  {
+    "FighterName": "Roy Nelson",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/edc4dc56-2c21-4213-9ec8-68e2bb2046a4%252FRoy-Nelson_1110_LeftFullBodyImage.png?itok=WeC8abqb"
+  },
+  {
+    "FighterName": "TJ Waldburger",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/32d9e1b5-72df-45f3-ac32-0e3897991d99%252FTJ-Waldburger-fighter_13185_LeftFullBodyImage.png?itok=c9_-cx6H"
+  },
+  {
+    "FighterName": "David Mitchell",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/fighter_images/David_Mitchell/DavidMitchell_FullBody_BC.png?VersionId=AGgk3AiqNoytvkGPk3TUmIwF0IUiwN_k&itok=akKfHdXj"
+  },
+  {
+    "FighterName": "Alexandre Pantoja",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/PANTOJA_ALEXANDRE_L_BELT_05-04.png?itok=IQIn_r6x"
+  },
+  {
+    "FighterName": "Deiveson Figueiredo",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/FIGUEIREDO_DEIVESON_L_04-13.png?itok=19uAz6gK"
+  },
+  {
+    "FighterName": "CJ Vergara",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/VERGARA_CJ_L_10-12.png?itok=gvbltAAe"
+  },
+  {
+    "FighterName": "Asu Almabayev",
+    "Photo": "https://imgs.search.brave.com/bD2wWvcsROi6wmL-l1fZxinFtH3tAotDR_okzBmc-mg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kbXhn/NXd4ZnFnYjR1LmNs/b3VkZnJvbnQubmV0/L3N0eWxlcy9hdGhs/ZXRlX2Jpb19mdWxs/X2JvZHkvczMvMjAy/NC0xMC85L0FMTUFC/QVlFVl9BU1VfTF8w/Ni0xNS5wbmc_aXRv/az1kakhTZjdfbg"
+  },
+  {
+    "FighterName": "Veronica Macedo",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-11/HARDY_VERONICA_L_05-11.png?itok=7Ziw2X4t"
+  },
+  {
+    "FighterName": "Stipe Miocic",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/MIOCIC_STIPE_L.png?itok=vGdTrhWf"
+  },
+  {
+    "FighterName": "Chris Camozzi",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/cabed0ea-5433-4772-9bbe-6196098290ca%252FChris-Camozzi_1185_LeftFullBodyImage.png?itok=cxVHCSgv"
+  },
+  {
+    "FighterName": "James Hammortree",
+    "Photo": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20150929014816_IMG_8581.JPG"
+  },
+  {
+    "FighterName": "Alex Caceres",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/CACERES_ALEX_L_06-03.png?itok=_2CDqgpw"
+  },
+  {
+    "FighterName": "Jason Knight",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/68201/profile-galery/fullbodyleft-picture/jason-knight_572133_LeftFullBodyImage.png?itok=HYPNAxvV"
+  },
+  {
+    "FighterName": "Jalin Turner",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/TURNER_JALIN_L_04-13.png?itok=JVrlJnfc"
+  },
+  {
+    "FighterName": "King Green",
+    "Photo": "https://imgs.search.brave.com/zkBDz_o9x1uLJ7mwwY4nCQsOGk4eLrCwe3k9UZAsi6M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kbXhn/NXd4ZnFnYjR1LmNs/b3VkZnJvbnQubmV0/L3N0eWxlcy9hdGhs/ZXRlX2Jpb19mdWxs/X2JvZHkvczMvMjAy/NC0wNy9HUkVFTl9L/SU5HX0xfMDctMjcu/cG5nP2l0b2s9M1ox/TVgyWmw"
+  },
+  {
+    "FighterName": "Brian Bowles",
+    "Photo": "https://imgs.search.brave.com/fF9-wtm57kzGKji7pItZ7IFGRdnbbvEvFzFWL7dZMy8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2hlcmRvZy5jb20v/aW1hZ2VfY3JvcC8y/MDAvMzAwL19pbWFn/ZXMvZmlnaHRlci8y/MDA5MDgxMzExMjQ1/MV9icmlhbmJvd2xl/cy5KUEc"
+  },
+  {
+    "FighterName": "Damacio Page",
+    "Photo": "https://imgs.search.brave.com/MYWZ5_MMGBvkZUyRH5AbjgybtmvyxIfYLQaVv5kGr6Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU0/NjcwNzE0L2ZyL3Bo/b3RvL2xvdWlzdmls/bGUta3ktZGFtYWNp/by1wYWdlLXBvc2Vz/LWZvci1hLXBvcnRy/YWl0LW9uLW1hcmNo/LTEtMjAxMS1pbi1s/b3Vpc3ZpbGxlLWtl/bnR1Y2t5LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1rNHdE/U0hyN1ROaVA4RWFo/bWlYYVNpREx6NHpt/VzdMQmxWUGdnWUpS/by1zPQ"
+  },
+  {
+    "FighterName": "Antonio Carvalho",
+    "Photo": "https://imgs.search.brave.com/XIPizQjLSg7d32cuj-odBzNeXYRqKXxr8iVoWM-E3HI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vOUJRckp2/OWxsQ0lUNGFEYmtC/bW5FZ3NQV1JRVk0z/N2hVa2xwM0Qwemxm/SS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/Yldkei9Mbk5sWVhK/amFDNWljbUYyL1pT/NWpiMjB2YzBwWVRV/bGovYVhBNWQyVXpa/azFKV2tNeC9VRUl4/UTJONlozSjBSMmxN/L1dqQmlaRmR3YlMx/WFh6Rk8vUVM5eWN6/cG1hWFE2TlRZdy9P/ak15TURveE9qQXZa/enBqL1pTOWhTRkl3/WTBoTk5reDUvT1RO/a00yTjFMMk15YUd4/ai9iVkoyV25rMWFt/SXlNSFl2L1lWY3hh/Rm95Vm1aWk0wcDIv/WTBNNGVTOU5SRUYy/VFhwQi9kMHd4T1hC/aVYwWnVMMXBZL1RY/WmFiV3h1WVVoU2JH/TnAvT0hrdlRVUkZN/RTFFVVhsTi9SRUV4/VFVSVmVDOU9iRGg0/L1ZGVmtaazlVVlRK/UFV6VkwvTDFWRll3/LmpwZWc"
+  },
+  {
+    "FighterName": "Daniel Pineda",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/16/PINEDA_DANIEL_L_07-27.png?itok=b2nMKWoI"
+  },
+  {
+    "FighterName": "Brian Kelleher",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-07/KELLEHER_BRIAN_L_07-20.png?itok=QOw2xNBQ"
+  },
+  {
+    "FighterName": "Montel Jackson",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/JACKSON_MONTEL_L_07-13.png?itok=MW-5kpvn"
+  },
+  {
+    "FighterName": "Song Kenan",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-03/KENAN_SONG_L_03-05.png?itok=Hp_zB8ph"
+  },
+  {
+    "FighterName": "Rolando Bedoya",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/BEDOYA_ROLANDO_L_05-06.png?itok=6zvRYbhY"
+  },
+  {
+    "FighterName": "Sergio Moraes",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2018-10/MORAES_SERGIO_L.png?VersionId=Wv_QG3jG3jj0inI7zb1mFGITuS.zv4kr&itok=ktPf-U_3"
+  },
+  {
+    "FighterName": "Tim Means",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/MEANS_TIM_L_04-27.png?itok=3qS4onQK"
+  },
+  {
+    "FighterName": "Manuel Torres",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-09/TORRES_MANUEL_L_09-14.png?itok=-rw7Rdpw"
+  },
+  {
+    "FighterName": "Nikolas Motta",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-01/MOTTA_NIKOLAS_L_01-13.png?itok=hSbn-_Po"
+  },
+  {
+    "FighterName": "Gabriel Benitez",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-04/BENITEZ_GABRIEL_L_04-27.png?itok=SyQnrYQ1"
+  },
+  {
+    "FighterName": "Humberto Bandenay",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2018-11/BANDENAY_HUMBERTO_L.png?VersionId=zFe8WuuwtbTYr.KRXVakxsLNXli3V0X3&itok=5UCgvUsV"
+  },
+  {
+    "FighterName": "Mark Bocek",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/fighter_images/Mark_Bocek/fighter_fullLength_MARK_BOCEK_RC.png?VersionId=OuyH6mxCwo7oDkttxoUvTi756pM94O4C&itok=W1eU0G6T"
+  },
+  {
+    "FighterName": "John Alessio",
+    "Photo": "https://imgs.search.brave.com/aTHOXAzSTtQ5N6QqEK9JnTWf62p4-EffGTPqqaAXyYQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2hlcmRvZy5jb20v/aW1hZ2VfY3JvcC8y/MDAvMzAwL19pbWFn/ZXMvZmlnaHRlci8y/MDEzMDkyODAyMTI1/Ml9qb2huX2FsZXNz/aW8uSlBH"
+  },
+  {
+    "FighterName": "Jack Hermansson",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/HERMANSSON_JACK_L_02-10.png?itok=7XgG9pfA"
+  },
+  {
+    "FighterName": "Joe Pyfer",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-06/PYFER_JOE_L_06-29.png?itok=ydMfkko6"
+  },
+  {
+    "FighterName": "Julio Arce",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-03/ARCE_JULIO_L_03-30.png?itok=oEFCQDUI"
+  },
+  {
+    "FighterName": "Hakeem Dawodu",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-09/DAWODU_HAKEEM_L_09-10.png?itok=Jwss9Wst"
+  },
+  {
+    "FighterName": "Mario Bautista",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/2/BAUTISTA_MARIO_L_01-13.png?itok=eUI85jN4"
+  },
+  {
+    "FighterName": "Trevin Jones",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-06/JONES_TREVIN_L_03-05.png?itok=oJCLRbGO"
+  },
+  {
+    "FighterName": "Melvin Guillard",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/c92feaa3-fb96-41e1-8378-15bfdbc55840%252FMelvin-Guillard_722_LeftFullBodyImage.png?itok=CKvK2IBf"
+  },
+  {
+    "FighterName": "Joe Lauzon",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-06/LAUZON_JOE_L_05-07.png?itok=8Vyno1ZN"
+  },
+  {
+    "FighterName": "Kron Gracie",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-05/GRACIE_KRON_L_05-06.png?itok=SWeqRQT2"
+  },
+  {
+    "FighterName": "Jared Hamman",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/fighter_images/Jared_Hamman/fighter_fullLength_HAMMAN_RC.png?VersionId=bFatdeb.c.cagj1kkHlFncbYg9nUVUpO&itok=ZMVLi-ZP"
+  },
+  {
+    "FighterName": "Magnus Cedenblad",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/72c4d688-b48d-46e9-9d6d-85a7461cc68d%252FMagnus-Cedenblad_234799_LeftFullBodyImage.png?itok=fEPWxTeC"
+  },
+  {
+    "FighterName": "Olivier Aubin-Mercier",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2018-12/AUBIN-MERCIER_OLIVIER_L.png?VersionId=OKFi4jt84PKGKM1d56QfcRjjuancF3n8&itok=sebDlCaQ"
+  },
+  {
+    "FighterName": "David Michaud",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/32ff2027-5b3b-47a7-9f7e-28bd7d4e321c%252FDavid-Michaud_483894_LeftFullBodyImage.png?itok=eNUDajuf"
+  },
+  {
+    "FighterName": "Louis Smolka",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-03/3e3e8bf3-f981-4091-80c0-6f47d51190ba%252FSMOLKA_LOUIS_L_12-04.png?itok=gQlhqKFu"
+  },
+  {
+    "FighterName": "Jose Quinonez",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2020-11/68355%252Fprofile-galery%252Ffullbodyleft-picture%252FQUINONEZ_JOSE_L_09-21.png?itok=H-FF7A0V"
+  },
+  {
+    "FighterName": "Sergio Pettis",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2018-10/PETTIS_SERGIO_L.png?itok=xxDbI7CQ"
+  },
+  {
+    "FighterName": "Tyson Nam",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-07/NAM_TYSON_L_07-15.png?itok=ZtISSJO0"
+  },
+  {
+    "FighterName": "Matt Brown",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-05/BROWN_MATT_L_05-13.png?itok=QGKwBL9Y"
+  },
+  {
+    "FighterName": "Stephen Thompson",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-10/3/THOMPSON_STEPHEN_L_10-05.png?itok=ch3XR-Wj"
+  },
+  {
+    "FighterName": "Rodrigo Damm",
+    "Photo": "https://imgs.search.brave.com/s-OFRTbBuOhLGjZ4tyQ0B08fuPr4fZhlVWoz41IaktM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDk0/NzE5ODUxL3Bob3Rv/L3JvZHJpZ28tZGFt/bS13ZWlnaHMtaW4t/ZHVyaW5nLXRoZS11/ZmMtZmlnaHQtbmln/aHQtd2VpZ2gtaW4t/YXQtdGhlLWdpbmFz/aW8tZG8taWJpcmFw/dWVyYS1vbi1tYXku/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PUgtYVRnRGRwcVZT/bENJNmJUaTVLTTRQ/ckUwVzRDWGJlTXhT/X2ZqbWljeFU9"
+  },
+  {
+    "FighterName": "Mizuto Hirota",
+    "Photo": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/image/ufc-fighter-container/68858/profile-galery/fullbodyleft-picture/HIROTA_MIZUTO_L.png?itok=O-n5YA6P"
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  },
+  {
+    "FighterName": "",
+    "Photo": ""
+  }
+]
