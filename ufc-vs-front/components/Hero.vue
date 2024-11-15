@@ -7,7 +7,7 @@
           class="text-center grid place-items-center w-full md:w-1/3 p-2 md:p-8"
           @click="checkWinner('Red')"
         >
-          <img :src="getImageUrl(fighters.red)" alt="Red Fighter" class="w-full h-64 md:h-[25rem] object-scale-down" />
+          <img :src="getImageUrl(fighters.red)" alt="Red Fighter" class="w-full h-64 md:h-[18rem] object-scale-down" />
           <p class="text-center w-full md:w-1/2 p-2 bg-white">{{ fighters.red }}</p>
         </div>
         <h3 class="text-center text-4xl md:text-9xl font-Bebas text-gray-100">&</h3>
@@ -19,14 +19,14 @@
           <img
             :src="getImageUrl(fighters.blue)"
             alt="Blue Fighter"
-            class="w-full h-64 md:h-[25rem] object-scale-down"
+            class="w-full h-64 md:h-[18rem] object-scale-down"
           />
           <p class="text-center w-full md:w-1/2 p-2 bg-white">{{ fighters.blue }}</p>
         </div>
       </div>
     </div>
     <p class="text-gray-100 text-2xl">on {{ fightDate }}</p>
-    <div v-if="message" class="mt-0">
+    <div v-if="message" class="mt-0 absolute bottom-20">
       <p :class="{ 'text-green-500 text-3xl text-center': !isCorrect, 'text-red-500': isCorrect }">{{ message }}</p>
     </div>
     <button
