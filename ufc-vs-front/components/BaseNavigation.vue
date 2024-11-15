@@ -1,8 +1,8 @@
 <template>
   <nav class="flex justify-center text-center">
-    <NuxtImg src="grey-background.jpg" class="absolute -z-10 h-screen w-full" />
+    <NuxtImg src="grey-background.jpg" class="fixed md:absolute -z-10 h-full md:h-screen w-auto md:w-full" />
     <!-- Référence pour le H1 -->
-    <h1 ref="title">
+    <h1 ref="title" class="w-3/4 md:w-auto text-center">
       <NuxtImg width="400px" src="UFC-vs.png" />
     </h1>
   </nav>

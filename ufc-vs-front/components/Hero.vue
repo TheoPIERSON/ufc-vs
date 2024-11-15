@@ -1,22 +1,41 @@
 <template>
   <div class="grid place-items-center">
     <div v-if="fighters.red && fighters.blue">
-      <div class="flex w-screen justify-around px-10">
-        <div ref="redFighter" class="text-center w-1/3 p-8" @click="checkWinner('Red')">
-          <img :src="getImageUrl(fighters.red)" alt="Red Fighter" class="w-full h-72 object-scale-down border" />
-          <p class="border p-2 bg-white">{{ fighters.red }}</p>
+      <div class="flex w-screen justify-around items-center p-0 md:px-10">
+        <div
+          ref="redFighter"
+          class="text-center grid place-items-center w-full md:w-1/3 p-2 md:p-8"
+          @click="checkWinner('Red')"
+        >
+          <img :src="getImageUrl(fighters.red)" alt="Red Fighter" class="w-full h-64 md:h-[25rem] object-scale-down" />
+          <p class="text-center w-full md:w-1/2 p-2 bg-white">{{ fighters.red }}</p>
         </div>
-        <div ref="blueFighter" class="text-center w-1/3 p-8" @click="checkWinner('Blue')">
-          <img :src="getImageUrl(fighters.blue)" alt="Blue Fighter" class="w-full h-72 object-scale-down border" />
-          <p class="border p-2 bg-white">{{ fighters.blue }}</p>
+        <h3 class="text-center text-4xl md:text-9xl font-Bebas text-gray-100">&</h3>
+        <div
+          ref="blueFighter"
+          class="text-center grid place-items-center w-full md:w-1/3 p-2 md:p-8"
+          @click="checkWinner('Blue')"
+        >
+          <img
+            :src="getImageUrl(fighters.blue)"
+            alt="Blue Fighter"
+            class="w-full h-64 md:h-[25rem] object-scale-down"
+          />
+          <p class="text-center w-full md:w-1/2 p-2 bg-white">{{ fighters.blue }}</p>
         </div>
       </div>
     </div>
     <p class="text-gray-100 text-2xl">on {{ fightDate }}</p>
     <div v-if="message" class="mt-0">
-      <p :class="{ 'text-green-500': !isCorrect, 'text-red-500': isCorrect }">{{ message }}</p>
+      <p :class="{ 'text-green-500 text-3xl text-center': !isCorrect, 'text-red-500': isCorrect }">{{ message }}</p>
     </div>
-    <button @click="loadRandomFight" class="bg-red-700 p-2 px-6 rounded-full text-white font-medium">Next Fight</button>
+    <button
+      @click="loadRandomFight"
+      :disabled="isButtonDisabled"
+      class="bg-red-700 p-2 px-6 rounded-full text-white font-medium"
+    >
+      Next Fight
+    </button>
   </div>
 </template>
 
@@ -32,6 +51,7 @@ const fightDate = ref<string | null>(null); // Utilisez string pour la date
 const photoData = ref<{ FighterName: string; Photo: string }[]>([]);
 const redFighter = ref<HTMLElement | null>(null);
 const blueFighter = ref<HTMLElement | null>(null);
+const isButtonDisabled = ref(false);
 
 // Fonction pour animer les photos
 const animatePhotos = () => {
@@ -40,46 +60,21 @@ const animatePhotos = () => {
 
     // Étape 1 : Les deux combattants arrivent depuis les côtés
     timeline.from(redFighter.value, {
-      x: -700, // Le rouge arrive de la gauche
+      x: -100, // Le rouge arrive de la gauche
       opacity: 0,
-      duration: 0.5,
-      ease: "none",
+      duration: 0.3,
+      ease: "power1.out",
     });
     timeline.from(
       blueFighter.value,
       {
-        x: 700, // Le bleu arrive de la droite
+        x: 100, // Le bleu arrive de la droite
         opacity: 0,
-        duration: 0.5,
-        ease: "none",
+        duration: 0.3,
+        ease: "power1.out",
       },
       "<"
     ); // Les deux animations commencent en même temps
-
-    // Étape 2 : Les deux combattants se rapprochent rapidement
-    timeline.to(
-      [redFighter.value, blueFighter.value],
-      {
-        x: (index) => (index === 0 ? "+=200" : "-=200"), // Rouge avance de +200px, Bleu de -200px
-        duration: 0.3,
-        ease: "power3.in",
-      },
-      "-=0.001" // Attend un court instant avant de commencer
-    );
-
-    // Étape 3 : Ils rebondissent légèrement après l'entrechoquement
-    timeline.to([redFighter.value, blueFighter.value], {
-      x: (index) => (index === 0 ? "-=100" : "+=100"), // Petit rebond en arrière
-      duration: 0.2,
-      ease: "elastic.out(1, 0.75)",
-    });
-
-    // Étape 4 : Retour à leur position finale
-    timeline.to([redFighter.value, blueFighter.value], {
-      x: 0, // Retour à leur position de départ (centrée)
-      duration: 0.4,
-      ease: "power2.out",
-    });
   }
 };
 
@@ -125,33 +120,43 @@ const getImageUrl = (fighterName: string) => {
 
 // Fonction pour charger un combat aléatoire
 const loadRandomFight = async () => {
+  if (isButtonDisabled.value) {
+    return; // Empêche les clics multiples
+  }
+
+  isButtonDisabled.value = true; // Désactive le bouton
+
   try {
     const response = await fetch("/ufc-master.csv");
     const csvText = await response.text();
 
     Papa.parse(csvText, {
-      header: true, // Utilisation de l'en-tête pour identifier les colonnes
-      skipEmptyLines: true, // Ignorer les lignes vides
+      header: true,
+      skipEmptyLines: true,
       complete: (result: { data: any }) => {
         const data = result.data;
 
         // Sélectionne un combat aléatoire
         const randomFight = data[Math.floor(Math.random() * data.length)];
 
-        // Récupère les combattants "Red Fighter" et "Blue Fighter"
+        // Met à jour les combattants et les autres informations
         fighters.value = {
-          red: randomFight.RedFighter, // Nom de la colonne pour Red Fighter
-          blue: randomFight.BlueFighter, // Nom de la colonne pour Blue Fighter
-          winner: randomFight.Winner, // Détermine le vainqueur
+          red: randomFight.RedFighter,
+          blue: randomFight.BlueFighter,
+          winner: randomFight.Winner,
         };
-        fightDate.value = randomFight.Date; // Assigner la date à fightDate
-        console.log(`Winner: ${fighters.value.winner} (${randomFight.Winner})`);
-        message.value = null; // Réinitialiser le message
+        fightDate.value = randomFight.Date;
+        message.value = null;
         animatePhotos();
       },
     });
   } catch (error) {
     console.error("Erreur lors du chargement des données :", error);
+  } finally {
+    // Réactive le bouton après une seconde
+    setTimeout(() => {
+      isButtonDisabled.value = false;
+    }, 500);
   }
 };
 

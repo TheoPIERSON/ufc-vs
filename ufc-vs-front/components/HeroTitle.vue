@@ -1,7 +1,9 @@
 <template>
   <section class="grid place-items-center">
-    <h2 ref="title" class="text-5xl font-bold font-Bebas uppercase text-gray-100">Are you a UFC expert ?</h2>
-    <p ref="question" class="text-4xl font-bold font-Bebas text-gray-100">Who won the fight between...</p>
+    <h2 ref="title" class="text-5xl font-bold font-Bebas uppercase text-gray-100 text-center">
+      Are you a UFC expert ?
+    </h2>
+    <p ref="question" class="text-4xl font-bold font-Bebas text-gray-100 text-center">Who won the fight between...</p>
   </section>
 </template>
 
