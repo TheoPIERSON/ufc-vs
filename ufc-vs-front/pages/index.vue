@@ -1,5 +1,6 @@
 <template>
   <BaseNavigation />
+  <HeroTitle />
   <Hero />
 </template>
 

@@ -1,14 +1,12 @@
 <template>
   <div class="grid place-items-center">
-    <h2 class="text-5xl font-bold font-Bebas uppercase text-gray-100">Are you a UFC expert ?</h2>
-    <p class="text-4xl font-bold font-Bebas text-gray-100">Who won the fight between...</p>
     <div v-if="fighters.red && fighters.blue">
-      <div class="flex w-screen justify-around">
-        <div class="text-center w-1/3 p-8" @click="checkWinner('Red')">
+      <div class="flex w-screen justify-around px-10">
+        <div ref="redFighter" class="text-center w-1/3 p-8" @click="checkWinner('Red')">
           <img :src="getImageUrl(fighters.red)" alt="Red Fighter" class="w-full h-72 object-scale-down border" />
           <p class="border p-2 bg-white">{{ fighters.red }}</p>
         </div>
-        <div class="text-center w-1/3 p-8" @click="checkWinner('Blue')">
+        <div ref="blueFighter" class="text-center w-1/3 p-8" @click="checkWinner('Blue')">
           <img :src="getImageUrl(fighters.blue)" alt="Blue Fighter" class="w-full h-72 object-scale-down border" />
           <p class="border p-2 bg-white">{{ fighters.blue }}</p>
         </div>
@@ -23,6 +21,7 @@
 </template>
 
 <script setup lang="ts">
+import { gsap } from "gsap";
 import { ref, onMounted } from "vue";
 import Papa from "papaparse";
 
@@ -31,6 +30,58 @@ const message = ref<string | null>(null);
 const isCorrect = ref<boolean | null>(null);
 const fightDate = ref<string | null>(null); // Utilisez string pour la date
 const photoData = ref<{ FighterName: string; Photo: string }[]>([]);
+const redFighter = ref<HTMLElement | null>(null);
+const blueFighter = ref<HTMLElement | null>(null);
+
+// Fonction pour animer les photos
+const animatePhotos = () => {
+  if (redFighter.value && blueFighter.value) {
+    const timeline = gsap.timeline();
+
+    // Étape 1 : Les deux combattants arrivent depuis les côtés
+    timeline.from(redFighter.value, {
+      x: -700, // Le rouge arrive de la gauche
+      opacity: 0,
+      duration: 0.5,
+      ease: "none",
+    });
+    timeline.from(
+      blueFighter.value,
+      {
+        x: 700, // Le bleu arrive de la droite
+        opacity: 0,
+        duration: 0.5,
+        ease: "none",
+      },
+      "<"
+    ); // Les deux animations commencent en même temps
+
+    // Étape 2 : Les deux combattants se rapprochent rapidement
+    timeline.to(
+      [redFighter.value, blueFighter.value],
+      {
+        x: (index) => (index === 0 ? "+=200" : "-=200"), // Rouge avance de +200px, Bleu de -200px
+        duration: 0.3,
+        ease: "power3.in",
+      },
+      "-=0.001" // Attend un court instant avant de commencer
+    );
+
+    // Étape 3 : Ils rebondissent légèrement après l'entrechoquement
+    timeline.to([redFighter.value, blueFighter.value], {
+      x: (index) => (index === 0 ? "-=100" : "+=100"), // Petit rebond en arrière
+      duration: 0.2,
+      ease: "elastic.out(1, 0.75)",
+    });
+
+    // Étape 4 : Retour à leur position finale
+    timeline.to([redFighter.value, blueFighter.value], {
+      x: 0, // Retour à leur position de départ (centrée)
+      duration: 0.4,
+      ease: "power2.out",
+    });
+  }
+};
 
 // Charger les photos des combattants depuis le fichier JSON
 const loadPhotos = async () => {
@@ -96,6 +147,7 @@ const loadRandomFight = async () => {
         fightDate.value = randomFight.Date; // Assigner la date à fightDate
         console.log(`Winner: ${fighters.value.winner} (${randomFight.Winner})`);
         message.value = null; // Réinitialiser le message
+        animatePhotos();
       },
     });
   } catch (error) {
