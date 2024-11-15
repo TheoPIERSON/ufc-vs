@@ -26,7 +26,7 @@
       </div>
     </div>
     <p class="text-gray-100 text-2xl">on {{ fightDate }}</p>
-    <div v-if="message" class="mt-0 absolute bottom-20">
+    <div v-if="message" class="mt-0 absolute bottom-1/4">
       <p :class="{ 'text-green-500 text-3xl text-center': !isCorrect, 'text-red-500': isCorrect }">{{ message }}</p>
     </div>
     <button
